@@ -16,9 +16,9 @@ except FileNotFoundError:
 payload = {
     "CompanyCode": "SynchemPharmace3",
     "Datetime": last_run,
-    "MargKey": "F98OMVZ5I47IKM1B1QZ1ITTTM9H1IQC5SIRN",
+    "MargKey": "XF98OMVXZ5I47IKMX1B1QZ1ITXTTM9H1IQC5SXIRN",
     "Index": 0,
-    "CompanyID": "10641",
+    "CompanyID": "0106410",
     "APIType": "1"
 }
 
@@ -43,3 +43,4 @@ try:
 
 except Exception as e:
     print(" API call failed:", e)
+
