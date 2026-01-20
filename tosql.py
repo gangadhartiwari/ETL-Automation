@@ -6,10 +6,10 @@ from datetime import datetime
 json_file = r'C:/Users/synchem/Desktop/MargtoSQL/decrypted_output.json'  # JSON file path
 conn_str = (
     "DRIVER={SQL Server};"
-    "SERVER=edp;"      # SQL Server address
+    "SERVER=;"      # SQL Server address
     "DATABASE=MargLiveData;"  # Your database name
-    "UID=sa;"      # Your username
-    "PWD=sfa;"  # Your password
+    "UID=;"      # Your username
+    "PWD=;"  # Your password
 )
 
 # ===================== HELPER FUNCTIONS =====================
@@ -121,3 +121,4 @@ def main():
 # Run the script
 if __name__ == "__main__":
     main()
+
